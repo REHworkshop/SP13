@@ -2,5 +2,5 @@
 http://example.com/service/v4_1/rest.php?method=login&input_type=JSON&response_type=JSON&rest_data={"user_auth":{"user_name":"USERNAME","password":"MD5PW","version":"1"},"application_name":"RestCall","name_value_list":[]}
 
 <!--  METHOD:get_entry_list tested and works--> 
-http://example.com/service/v4_1/rest.php?method=get_entry_list&input_type=JSON&response_type=JSON&rest_data={"session":"0000000000000000000","module_name":"Opportunities","query":"","order_by":null,"offset":0,"select_fields":["id","name","date_entered","pipeline_sort_c","amount"  ],"link_name_to_fields_array":[{"name":"Accounts","value":["id","name"]}],"max_results":20,"deleted":"FALSE"}
+http://example.com/service/v4_1/rest.php?method=get_entry_list&input_type=JSON&response_type=JSON&rest_data={"session":"11110000000000000000000","module_name":"Opportunities","query":"","order_by":null,"offset":0,"select_fields":["id","name","date_entered","amount"  ],"link_name_to_fields_array":[{"name":"Accounts","value":["id","name"]}],"max_results":20,"deleted":"FALSE"}
 
